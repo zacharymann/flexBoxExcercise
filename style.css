@@ -1,0 +1,82 @@
+section {
+    height: 400px;
+    margin: 10px 0;
+  }
+  #one {
+    background: rgb(150, 150, 150);
+  }
+  #two {
+    background: rgb(205, 205, 205);
+  }
+  div {
+    width: 90px;
+    height: 90px;
+    border: 3px solid black;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #two div {
+    width: 400px;
+  }
+  #red {
+    background: red;
+  }
+  #green {
+    background: green;
+  }
+  #blue {
+    background: blue;
+  }
+  #orange {
+    background: orange;
+  }
+  #purple {
+    background: purple;
+  }
+  #brown {
+    background: brown;
+  }
+  /* START BELOW THIS LINE */
+
+  /* 1 */
+
+  #one {
+    display: flex;
+    /* 2 */
+    justify-content: flex-end;
+    /* 3 */
+    flex-direction: column;
+    /* 4 */
+    align-items: center;
+
+    /* Bonus */
+    /* 1 */
+    flex-direction: column-reverse;
+}
+#two {
+    /* 5 */
+    display: flex;
+    /* 6 */
+    align-items: center;
+    /* 7 */
+    justify-content: space-between;
+    /* 8 */
+    flex-wrap: wrap;
+}
+
+/* BONUS */
+/* 2 */
+ #two :nth-child(1){
+     order: 2;
+    }
+ #two :nth-child(2){
+     order: 3;
+}
+ #two :nth-child(3){
+     order: 1;
+    }
