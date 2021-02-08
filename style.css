@@ -80,3 +80,11 @@ section {
  #two :nth-child(3){
      order: 1;
     }
+    
+#brown {
+  align-self: flex-start;
+}
+
+#purple {
+  align-self: flex-end;
+}
